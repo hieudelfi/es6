@@ -1,1 +1,1 @@
-# es6
+# Webpack and ES6 tutorial
