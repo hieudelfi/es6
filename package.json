@@ -1,0 +1,32 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "New javascript feature 2015 call ES6",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config=webpack.dev.config.js",
+    "build": "webpack --config=webpack.prod.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieudelfi/es6.git"
+  },
+  "keywords": [
+    "javascript",
+    "es6"
+  ],
+  "author": "HughNguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieudelfi/es6/issues"
+  },
+  "homepage": "https://github.com/hieudelfi/es6#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
